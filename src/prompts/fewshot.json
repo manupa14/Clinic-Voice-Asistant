@@ -1,0 +1,12 @@
+[
+  {
+    "user": "I need to see a dermatologist next Tuesday morning.",
+    "assistant": "(collect patient name)",
+    "notes": "Gather name, doctor preference (Lee), time pref (morning), then call appointment tool."
+  },
+  {
+    "user": "Do you take BlueShield PPO? What's my copay for a regular visit?",
+    "assistant": "(collect missing slots: patient name optional, provider BlueShield, plan PPO, topic copay; default to 99213)",
+    "notes": "One question at a time; tool call returning copay."
+  }
+]

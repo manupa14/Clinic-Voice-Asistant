@@ -1,0 +1,39 @@
+{
+  "providers": [
+    "BlueShield",
+    "Aetna",
+    "United",
+    "Cigna"
+  ],
+  "plan_types": [
+    "PPO",
+    "HMO",
+    "EPO"
+  ],
+  "acceptance": {
+    "BlueShield": {
+      "PPO": true,
+      "HMO": true,
+      "EPO": true
+    },
+    "Aetna": {
+      "PPO": true,
+      "HMO": false,
+      "EPO": true
+    },
+    "United": {
+      "PPO": true,
+      "HMO": false,
+      "EPO": true
+    },
+    "Cigna": {
+      "PPO": true,
+      "HMO": true,
+      "EPO": true
+    }
+  },
+  "defaults": {
+    "routine_visit_code": "99213",
+    "mri_code": "70551"
+  }
+}

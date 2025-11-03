@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+dist/
+build/
+*.log
+*.tmp
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# App artifacts
+demos/*.mp3
+demos/*.wav
+demos/*.json
+demos/*.txt

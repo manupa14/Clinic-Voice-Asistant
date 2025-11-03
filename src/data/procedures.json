@@ -1,0 +1,28 @@
+{
+  "99213": {
+    "name": "Established patient office visit (level 3)",
+    "copay": {
+      "PPO": 30,
+      "HMO": 20,
+      "EPO": 25
+    },
+    "prior_auth": {
+      "PPO": false,
+      "HMO": false,
+      "EPO": false
+    }
+  },
+  "70551": {
+    "name": "MRI brain without contrast",
+    "copay": {
+      "PPO": 150,
+      "HMO": 100,
+      "EPO": 120
+    },
+    "prior_auth": {
+      "PPO": false,
+      "HMO": true,
+      "EPO": true
+    }
+  }
+}
