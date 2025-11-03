@@ -36,12 +36,6 @@ ELEVENLABS_VOICE_ID=...             # voice used for TTS
 DATA_DIR=src/data                   # default data folder
 ```
 
-**Optional latency settings**:
-```
-OPENAI_TIMEOUT_SECONDS=45
-OPENAI_MAX_RETRIES=2
-```
-
 > Ensure `.gitignore` contains: `.env`, `.venv/`, `.idea/`, `__pycache__/`, `*.mp3`.
 
 ---
