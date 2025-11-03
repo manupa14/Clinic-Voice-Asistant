@@ -96,33 +96,8 @@ src/
     procedures.json
 docs/
   system.md             # System prompt (authoritative behavior)
-tests/
 requirements.txt
 README.md
 ```
 
----
-
-## 4) Quick Usage
-
-- Say/type: “Schedule with **Dr. Lee** this **Thursday afternoon** for **John Smith**.”
-- Assistant lists up to 3 options (forward‑only), then you can say “Yes, book the 2pm.”
-- For insurance: “Does **United PPO** require prior auth for an **MRI**?”
-
-> The mic and textbox **auto‑clear** after sending; audio replies autoplay.
-
----
-
-## 5) Troubleshooting
-
-- **Timeouts:** increase `OPENAI_TIMEOUT_SECONDS` and `OPENAI_MAX_RETRIES` in `.env` (then restart).
-- **Model errors about `temperature` / `max_tokens`:** remove those params for 4.1/5.x models when using Chat Completions.
-- **Mic not arming:** hard refresh the browser; ensure site has mic permission.
-- **TTS fails:** check `ELEVENLABS_*` keys and network; you'll still see the text reply.
-
----
-
-## 6) License
-
-MIT (see `LICENSE`).
 
