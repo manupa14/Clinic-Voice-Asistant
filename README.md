@@ -30,10 +30,9 @@ cp .env.example .env
 
 ```
 OPENAI_API_KEY=sk-...
-OPENAI_CHAT_MODEL=gpt-4.1-mini      # or gpt-4o-mini, gpt-5-mini, etc.
+OPENAI_CHAT_MODEL=gpt-5      # or gpt-4o-mini, gpt-5-mini, etc.
 ELEVENLABS_API_KEY=eleven-...
 ELEVENLABS_VOICE_ID=...             # voice used for TTS
-DATA_DIR=src/data                   # default data folder
 ```
 
 > Ensure `.gitignore` contains: `.env`, `.venv/`, `.idea/`, `__pycache__/`, `*.mp3`.
@@ -42,7 +41,7 @@ DATA_DIR=src/data                   # default data folder
 
 ## 2) Run
 
-### PyCharm (GUI – recommended)
+### PyCharm (GUI)
 1. **Mark Sources Root:** right‑click `src/` → **Mark Directory As → Sources Root** (turns blue).
 2. **Run Configuration:** Run → **Edit Configurations…**
    - **Module name:** `app.ui_gradio`
